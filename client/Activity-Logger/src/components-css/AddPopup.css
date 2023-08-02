@@ -1,0 +1,75 @@
+.add{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-weight: bold;
+  font-size: 40px;
+  background: #ee0979; 
+  background: -webkit-linear-gradient(to right, #ff6a00, #ee0979); 
+  background: linear-gradient(to bottom right, #ff6a00, #ee0979);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.add:hover{
+  border-radius: 25%;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+
+
+.exitButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.popUpActive{
+  position: relative;
+  margin-bottom: 10px;
+  background-color: var(--dark-alt);
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+  width: 500px;
+}
+
+
+.addActivityForm input{
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 5px;
+  font-size: 16px;
+  width: 400px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.addActivityForm button{
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  background: #ec008c; 
+  background: -webkit-linear-gradient(to left, #fc6767, #ec008c);  
+  background: linear-gradient(to left, #fc6767, #ec008c); 
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.addActivityForm button:hover{
+  cursor: pointer;
+  border-radius: 5px;;
+}
+

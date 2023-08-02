@@ -1,0 +1,26 @@
+GET http://localhost:3001/activities
+
+###
+POST http://localhost:3001/activities/new
+Content-Type: application/json 
+
+{
+  "text":"Ran",
+  "desc": "Ran for 4 milessssssssssssssssssssssssssssssssss",
+  "time": "8:30pm",
+  "date": "10/10/2022"
+}
+
+###
+DELETE http://localhost:3001/activities/delete/64c83cbd50d1f841aa6f8777
+
+###
+PUT http://localhost:3001/activities/update/64c6f32a0cc2881d18a52120
+Content-Type: application/json
+
+{
+  "text": "Updated Running Activity",
+  "desc": "Ran for 6 miles",
+  "time": "9:00am",
+  "date": "12/12/2022"
+}
